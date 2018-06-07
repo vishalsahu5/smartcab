@@ -1,0 +1,17 @@
+alpha = 0.05 epsilon = 1.0 decay = exponential 50 tests
+alpha = 0.01 epsilon = 1.0 decay = exponential 50 tests slow
+alpha = 0.05 epsilon = 1.0 decay = cos(at) 50 tests
+alpha = 0.025 epsilon = 1.0 decay = cos(at) 50 tests
+alpha = 0.025 epsilon = 0.5  decay = cos(at) 50 tests
+
+
+inputs reduced, right removed.
+alpha = 0.025 epsilon = 0.5  decay = cos(at) 50 tests
+alpha = 0.01 epsilon = 1.0 decay = exponential 50 tests was slow, best till now... A+ and B
+alpha = 0.025 epsilon = 1.0 decay = exponential 50 tests, A+ and F
+alpha = 0.025 epsilon = 1.0  decay = cos(at) 50 tests, F and D
+alpha = 0.01 epsilon = 1.0  decay = cos(at) 50 tests, F and A
+alpha = 0.005 epsilon = 1.0  decay = cos(at) 50 tests, D and A+
+alpha = 0.005 epsilon = 1.0  decay = 1.5*cos(at) 50 tests, A+ and A+, best
+alpha = 0.005 epsilon = 1.0  decay = 0.5*cos(at) 50 tests, A+ and C
+
